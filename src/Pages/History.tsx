@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Pages.scss"
 import Vol1 from "../assets/vol1.png"
 import Vol2 from "../assets/RabbitHole_v2.png"
