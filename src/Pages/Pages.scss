@@ -1,0 +1,59 @@
+.about {
+  display: flex;
+  flex-direction: column;   // 縦並び
+  justify-content: center; // 中央揃え
+  align-items: center; // 縦位置を中央揃え
+  gap: 16px;               // 要素間の余白
+  background-color: rgba(255,255,255,0.4);
+
+  .about-icon {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    max-width: 640px;
+  }
+}
+.main-heading{
+  .main-h1 {
+    font-size: clamp(1rem,6vw,3rem);
+    font-weight: bold;
+    text-align: center;
+  }
+
+}
+
+.eventhistory {
+  display: flex;
+  flex-direction: row;   // 横並び（デフォルトなので省略もOK）
+  justify-content: center; // 中央揃え
+  align-items: center; //縦位置を中央揃え
+  gap: 16px;               // 要素間の余白
+  background-color: rgba(255,255,255,0.4);
+
+  .history-icon {
+    width: 45%;
+    height: 45%;
+  }
+
+  .history-text {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    width: 50%;
+    font-weight: bold;
+  }
+
+  .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; // 横方向の中央揃え
+    align-items: center;     // 縦方向の中央揃え
+    gap: 16px;               // リンクの間隔
+  }
+}

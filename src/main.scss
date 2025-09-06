@@ -1,0 +1,33 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;   // 縦に並べる
+  justify-content: center;  // 縦方向の中央
+  align-items: center;      // 横方向の中央
+  text-align: center;
+  background: url("../src/assets/ラビホ01インスタサイズ2.jpg") center/cover no-repeat fixed;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  .title-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .title-text {
+    font-size: clamp(2rem,8vw,4rem);
+    font-weight: bold;
+    color: #0f0f0f;
+  }
+}
+.divider {
+  border: none;             // デフォルトの線を消す
+  height: 2px;              // 線の太さ
+  background-color: black;   // 線の色
+  margin: 10px 0;           // 上下の余白
+}

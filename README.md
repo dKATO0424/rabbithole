@@ -1,3 +1,4 @@
-# Rabbit Hole Project
+# ようこそ、Rabbit HoleのWebページリポジトリへ
 
-このプロジェクトは、とあるイベント `Rabbit Hole` の情報告知などを行うための静的コンテンツを管理配信するためのリポジトリです。
+このリポジトリは、イベント：Rabbit Holeの情報を提供するために作成したWebサイトを、GitHub Pagesを利用して公開しています。
+
