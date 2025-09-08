@@ -5,7 +5,8 @@
   justify-content: center;  // 縦方向の中央
   align-items: center;      // 横方向の中央
   text-align: center;
-  background: url("../src/assets/background.jpg") center/cover no-repeat fixed;
+  background: url("../src/assets/background.jpg") center no-repeat fixed;
+  background-size: auto;
 }
 
 .title-wrapper {
