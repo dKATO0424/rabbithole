@@ -10,7 +10,6 @@ export default function History() {
         <div className="main-h1">Event History</div>
       </div>
       <p>これまでのイベントを紹介します。</p>
-      <hr className="divider" />
       <div className="eventhistory">
         <p className="history-text">
           第二回<br />
@@ -20,7 +19,6 @@ export default function History() {
         </p>
         <img src={Vol2} alt="Rabbit Hole Vol.2" className="history-icon" />
       </div>
-      <hr className="divider" />
       <div className="eventhistory">
         <img src={Vol1} alt="Rabbit Hole Vol.1" className="history-icon" />
         <p className="history-text">

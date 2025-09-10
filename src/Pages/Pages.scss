@@ -15,7 +15,8 @@
     font-size: 16px;
     text-align: left;
     color: black;
-    max-width: 80%;
+    max-width: 70%;
+    align-items: center;
   }
 }
 .main-heading{
@@ -36,15 +37,15 @@
   background-color: rgba(255,255,255,0.4);
 
   .history-icon {
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: 40%;
   }
 
   .history-text {
     font-size: 16px;
     text-align: center;
     color: black;
-    width: 50%;
+    width: 40%;
     font-weight: bold;
   }
 
