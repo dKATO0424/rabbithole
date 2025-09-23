@@ -1,4 +1,4 @@
-import "./Pages.scss"
+import "../style.css"
 import mainIcon from "../assets/RabbitHole_v2.png"
 
 export default function About() {

@@ -1,5 +1,5 @@
 import About from "./About.tsx"
-import "./Pages.scss"
+import "../style.css"
 
 export default function Home() {
   return (

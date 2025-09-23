@@ -8,7 +8,7 @@ import Home from "./Pages/Home.tsx";
 import History from "./Pages/History.tsx";
 import Footer from "./components/Footer.tsx";
 import InstagramLink from "./components/instagramlink.tsx"
-import "./main.scss"
+import "./style.css"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

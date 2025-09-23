@@ -1,5 +1,5 @@
 import instagramIcon from "../assets/Instagram_icon.png"
-import "./components.scss"
+import "../style.css"
 
 type InstagramLinkProps = {
   url: string;

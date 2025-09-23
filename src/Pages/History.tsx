@@ -1,4 +1,4 @@
-import "./Pages.scss"
+import "../style.css"
 import Vol1 from "../assets/vol1.png"
 import Vol2 from "../assets/RabbitHole_v2.png"
 import InstagramLink from "../components/instagramlink";

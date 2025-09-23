@@ -1,0 +1,121 @@
+/* 
+main
+*/
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../src/assets/background.jpg") center no-repeat fixed;
+  background-size: auto;
+}
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.title-icon {
+  width: 40px;
+  height: 40px;
+}
+.title-text {
+  font-size: clamp(2rem,8vw,4rem);
+  font-weight: bold;
+  color: #0f0f0f;
+}
+.divider {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin: 10px 0;
+  width: 70%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: rgba(255,255,255,0.4);
+}
+.about-icon {
+  width: 300px;
+  height: 300px;
+}
+.about-text {
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  max-width: 70%;
+}
+.main-heading .main-h1 {
+  font-size: clamp(1rem,6vw,3rem);
+  font-weight: bold;
+  text-align: center;
+}
+.eventhistory {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: rgba(255,255,255,0.4);
+}
+.history-icon {
+  width: 40%;
+  height: 40%;
+}
+.history-text {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  width: 40%;
+  font-weight: bold;
+}
+.eventhistory .ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* components.scss の内容を統合 */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: darkblue;
+}
+.menu .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.instagram-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+.instagram-link img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+.instagram-link img:hover {
+  transform: scale(1.1);
+}
